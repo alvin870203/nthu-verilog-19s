@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1586382625">
+  <File Type="OPT-DCP" Name="downcounter_30s_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="downcounter_30s_route_status.pb"/>
+  <File Type="PA-TCL" Name="downcounter_30s.tcl"/>
+  <File Type="RDI-RDI" Name="downcounter_30s.vdi"/>
+  <File Type="PWROPT-DRC" Name="downcounter_30s_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="downcounter_30s_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="downcounter_30s_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="downcounter_30s_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="downcounter_30s_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="downcounter_30s.hwdef"/>
+  <File Type="OPT-TIMING" Name="downcounter_30s_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="downcounter_30s_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="downcounter_30s_placed.dcp"/>
+  <File Type="PLACE-IO" Name="downcounter_30s_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="downcounter_30s_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="downcounter_30s_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="downcounter_30s_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="downcounter_30s_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="downcounter_30s_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="downcounter_30s_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="downcounter_30s_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="downcounter_30s_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="downcounter_30s_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="downcounter_30s_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="downcounter_30s_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="downcounter_30s_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="downcounter_30s_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="downcounter_30s_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="downcounter_30s_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="downcounter_30s_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="downcounter_30s_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="downcounter_30s.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="downcounter_30s_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="downcounter_30s_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="downcounter_30s_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="downcounter_30s_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="downcounter_30s_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="downcounter_30s_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="downcounter_30s_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="downcounter_30s_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="downcounter_30s_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="downcounter_30s_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="downcounter_30s_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="downcounter_30s_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="downcounter_30s_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="downcounter_30s_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="downcounter_30s_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="downcounter_30s.bin"/>
+  <File Type="BITSTR-MSK" Name="downcounter_30s.msk"/>
+  <File Type="BITSTR-RBT" Name="downcounter_30s.rbt"/>
+  <File Type="BITSTR-NKY" Name="downcounter_30s.nky"/>
+  <File Type="BITSTR-BMM" Name="downcounter_30s_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="downcounter_30s.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="downcounter_30s.sysdef"/>
+  <File Type="BG-BGN" Name="downcounter_30s.bgn"/>
+  <File Type="BG-DRC" Name="downcounter_30s.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/global.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/stop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/downcounter2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/scan_ctl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/freqdiv17.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/freq1Hz.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/downcounter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/downcounter_30s.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="downcounter_30s"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/downcounter_30s.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

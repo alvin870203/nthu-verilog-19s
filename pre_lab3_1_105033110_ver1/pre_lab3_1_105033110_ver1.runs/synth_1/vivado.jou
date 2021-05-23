@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Mar 20 23:48:34 2020
+# Process ID: 6948
+# Current directory: C:/Users/Alvin/Documents/LogicDesignLabMonday/pre_lab3_1_105033110_ver1/pre_lab3_1_105033110_ver1.runs/synth_1
+# Command line: vivado.exe -log bincnt.vds -mode batch -messageDb vivado.pb -notrace -source bincnt.tcl
+# Log file: C:/Users/Alvin/Documents/LogicDesignLabMonday/pre_lab3_1_105033110_ver1/pre_lab3_1_105033110_ver1.runs/synth_1/bincnt.vds
+# Journal file: C:/Users/Alvin/Documents/LogicDesignLabMonday/pre_lab3_1_105033110_ver1/pre_lab3_1_105033110_ver1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bincnt.tcl -notrace

@@ -1,0 +1,40 @@
+Unable to capture context for thread 3952 in process 8332, can not generate back trace
+Unable to capture context for thread 9736 in process 8332, can not generate back trace
+Unable to capture context for thread 20964 in process 8332, can not generate back trace
+Exception at PC 0x00007FFB53E2A859
+Unable to capture context for thread 20964 in process 8332, can not generate back trace
+Exception at PC 0x00007FFAB6EFBB93
+Printing stacktrace...
+
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+[0]  [0x00007FFAB6EFBB93]
+[1]  [0x00007FFAB6EFBB93]
+[2]  [0x00007FFAB6EFB4A1]
+[3]  [0x00007FFAB6EFB3EF]
+[4]  [0x00007FFAB6EE19FE]
+[5]  [0x00007FFAB6EE0ED1]
+[6]  [0x00007FFAB6EE0D76]
+[7]  [0x00007FFAB6E879F6]
+[8]  [0x00007FFAB6E77AFB]
+[9]  [0x00007FFAB6F9E90A]
+[10]  [0x00007FFAB6FB9F87]
+[11]  [0x00007FFAB6FBA05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFB54B57BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFB5650CED1]
+Done
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859
+Exception at PC 0x00007FFB53E2A859

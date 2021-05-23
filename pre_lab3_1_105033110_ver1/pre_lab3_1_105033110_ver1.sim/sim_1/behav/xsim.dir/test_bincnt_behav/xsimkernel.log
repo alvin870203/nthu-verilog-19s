@@ -1,0 +1,7 @@
+Running: xsim.dir/test_bincnt_behav/xsimk.exe -simmode gui -wdb test_bincnt_behav.wdb -simrunnum 0 -socket 59438
+Design successfully loaded
+Design Loading Memory Usage: 9152 KB (Peak: 9152 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 9776 KB (Peak: 9776 KB)
+Simulation CPU Usage: 124 ms

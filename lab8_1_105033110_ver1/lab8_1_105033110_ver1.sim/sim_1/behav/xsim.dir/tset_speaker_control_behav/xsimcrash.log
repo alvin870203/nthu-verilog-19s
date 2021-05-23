@@ -1,0 +1,40 @@
+Exception at PC 0x00007FFA8062A799
+Unable to capture context for thread 23936 in process 19576, can not generate back trace
+Unable to capture context for thread 22884 in process 19576, can not generate back trace
+Exception at PC 0x00007FFA8062A799
+Unable to capture context for thread 22160 in process 19576, can not generate back trace
+Exception at PC 0x00007FF9ED8CBB93
+Printing stacktrace...
+
+Unable to capture context for thread 22160 in process 19576, can not generate back trace
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+[0]  [0x00007FF9ED8CBB93]
+[1]  [0x00007FF9ED8CBB93]
+[2]  [0x00007FF9ED8CB4A1]
+[3]  [0x00007FF9ED8CB3EF]
+[4]  [0x00007FF9ED8B19FE]
+[5]  [0x00007FF9ED8B0ED1]
+[6]  [0x00007FF9ED8B0D76]
+[7]  [0x00007FF9ED8579F6]
+[8]  [0x00007FF9ED847AFB]
+[9]  [0x00007FF9ED96E90A]
+[10]  [0x00007FF9ED989F87]
+[11]  [0x00007FF9ED98A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFA81D07BD4]
+[13] (RtlUserThreadStart+0x21) [0x00007FFA82CECE51]
+Done
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799
+Exception at PC 0x00007FFA8062A799

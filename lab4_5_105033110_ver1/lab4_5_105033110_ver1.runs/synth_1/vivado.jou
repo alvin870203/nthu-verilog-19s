@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Apr 09 05:50:27 2020
+# Process ID: 5784
+# Current directory: C:/Users/Alvin/Documents/LogicDesignLabMonday/lab4_5_105033110_ver1/lab4_5_105033110_ver1.runs/synth_1
+# Command line: vivado.exe -log downcounter_30s.vds -mode batch -messageDb vivado.pb -notrace -source downcounter_30s.tcl
+# Log file: C:/Users/Alvin/Documents/LogicDesignLabMonday/lab4_5_105033110_ver1/lab4_5_105033110_ver1.runs/synth_1/downcounter_30s.vds
+# Journal file: C:/Users/Alvin/Documents/LogicDesignLabMonday/lab4_5_105033110_ver1/lab4_5_105033110_ver1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source downcounter_30s.tcl -notrace

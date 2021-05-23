@@ -1,0 +1,59 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon May 11 16:35:19 2020
+| Host         : DESKTOP-DC9NKE6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file speaker_control_sets_placed.rpt
+| Design       : speaker
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     6 |
+| Unused register locations in slices containing registers |    20 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              92 |           30 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               8 |            4 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------+-----------------------------+-------------------+------------------+----------------+
+|          Clock Signal          |        Enable Signal        |  Set/Reset Signal | Slice Load Count | Bel Load Count |
++--------------------------------+-----------------------------+-------------------+------------------+----------------+
+|  U_cg/ssd_enabled_index_reg[0] |                             | U_cg/clk_2k_reg_0 |                1 |              2 |
+|  U_cg/CLK                      | U_vc/volumn_cnt0[3]_i_1_n_0 | U_cg/clk_2k_reg_0 |                2 |              4 |
+|  U_cg/CLK                      | U_vc/volumn_cnt1[3]_i_1_n_0 | U_cg/clk_2k_reg_0 |                2 |              4 |
+|  Usc/sel0[0]                   |                             | U_cg/clk_2k_reg_0 |                3 |              7 |
+|  U_cg/CLK                      |                             | U_cg/clk_2k_reg_0 |                5 |             14 |
+|  clk_IBUF_BUFG                 |                             | U_cg/clk_2k_reg_0 |               21 |             69 |
++--------------------------------+-----------------------------+-------------------+------------------+----------------+
+
+

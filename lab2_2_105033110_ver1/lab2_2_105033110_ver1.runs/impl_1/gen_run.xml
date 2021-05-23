@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1584635516">
+  <File Type="OPT-DCP" Name="ssd_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="ssd_route_status.pb"/>
+  <File Type="PA-TCL" Name="ssd.tcl"/>
+  <File Type="RDI-RDI" Name="ssd.vdi"/>
+  <File Type="PWROPT-DRC" Name="ssd_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ssd_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ssd_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="ssd_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="ssd_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="ssd.hwdef"/>
+  <File Type="OPT-TIMING" Name="ssd_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ssd_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ssd_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ssd_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ssd_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ssd_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ssd_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ssd_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ssd_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ssd_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="ssd_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ssd_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ssd_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ssd_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ssd_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="ssd_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="ssd_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ssd_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ssd_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ssd_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ssd_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="ssd.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ssd_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="ssd_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ssd_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ssd_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ssd_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ssd_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ssd_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ssd_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ssd_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ssd_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ssd_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ssd_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ssd_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ssd_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ssd_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="ssd.bin"/>
+  <File Type="BITSTR-MSK" Name="ssd.msk"/>
+  <File Type="BITSTR-RBT" Name="ssd.rbt"/>
+  <File Type="BITSTR-NKY" Name="ssd.nky"/>
+  <File Type="BITSTR-BMM" Name="ssd_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ssd.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="ssd.sysdef"/>
+  <File Type="BG-BGN" Name="ssd.bgn"/>
+  <File Type="BG-DRC" Name="ssd.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/display_ssd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display_led.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ssd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ssd"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ssd.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/ssd.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

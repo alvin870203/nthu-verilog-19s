@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1586373359">
+  <File Type="OPT-DCP" Name="scroll_ssd_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="scroll_ssd_route_status.pb"/>
+  <File Type="PA-TCL" Name="scroll_ssd.tcl"/>
+  <File Type="RDI-RDI" Name="scroll_ssd.vdi"/>
+  <File Type="PWROPT-DRC" Name="scroll_ssd_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="scroll_ssd_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="scroll_ssd_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="scroll_ssd_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="scroll_ssd_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="scroll_ssd.hwdef"/>
+  <File Type="OPT-TIMING" Name="scroll_ssd_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="scroll_ssd_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="scroll_ssd_placed.dcp"/>
+  <File Type="PLACE-IO" Name="scroll_ssd_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="scroll_ssd_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="scroll_ssd_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="scroll_ssd_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="scroll_ssd_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="scroll_ssd_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="scroll_ssd_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="scroll_ssd_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="scroll_ssd_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="scroll_ssd_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="scroll_ssd_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="scroll_ssd_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="scroll_ssd_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="scroll_ssd_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="scroll_ssd_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="scroll_ssd_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="scroll_ssd_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="scroll_ssd_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="scroll_ssd.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="scroll_ssd_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="scroll_ssd_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="scroll_ssd_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="scroll_ssd_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="scroll_ssd_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="scroll_ssd_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="scroll_ssd_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="scroll_ssd_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="scroll_ssd_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="scroll_ssd_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="scroll_ssd_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="scroll_ssd_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="scroll_ssd_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="scroll_ssd_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="scroll_ssd_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="scroll_ssd.bin"/>
+  <File Type="BITSTR-MSK" Name="scroll_ssd.msk"/>
+  <File Type="BITSTR-RBT" Name="scroll_ssd.rbt"/>
+  <File Type="BITSTR-NKY" Name="scroll_ssd.nky"/>
+  <File Type="BITSTR-BMM" Name="scroll_ssd_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="scroll_ssd.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="scroll_ssd.sysdef"/>
+  <File Type="BG-BGN" Name="scroll_ssd.bgn"/>
+  <File Type="BG-DRC" Name="scroll_ssd.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/global.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/shifter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/scan_ctl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/freqdiv27.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/scroll_ssd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="scroll_ssd"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/scroll_ssd.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

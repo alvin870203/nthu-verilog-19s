@@ -1,0 +1,70 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon May 04 07:30:26 2020
+| Host         : DESKTOP-DC9NKE6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    17 |
+| Unused register locations in slices containing registers |    75 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              97 |           26 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              52 |           19 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------+------------------------------+----------------------+------------------+----------------+
+|            Clock Signal           |         Enable Signal        |   Set/Reset Signal   | Slice Load Count | Bel Load Count |
++-----------------------------------+------------------------------+----------------------+------------------+----------------+
+|  Uclkgen/ssd_enabled_index_reg[0] |                              | Uclkgen/clk_2k_reg_0 |                1 |              2 |
+|  clk__0                           | U_TD/Uhr0_12/q[3]_i_1__9_n_0 | Uclkgen/clk_2k_reg_0 |                2 |              4 |
+|  clk__0                           | U_TD/Uhr0_12/q_reg[0]_1      | Uclkgen/clk_2k_reg_0 |                1 |              4 |
+|  clk__0                           | U_TD/Usec1/q_reg[0]_0        | Uclkgen/clk_2k_reg_0 |                2 |              4 |
+|  clk__0                           | U_TD/Usec1/q_reg[0]_1        | Uclkgen/clk_2k_reg_0 |                2 |              4 |
+|  clk__0                           | U_TD/Uyear0/q_reg[0]_1       | Uclkgen/clk_2k_reg_0 |                1 |              4 |
+|  clk__0                           | U_TD/Uhr0_24/q_reg[0]_0      | Uclkgen/clk_2k_reg_0 |                1 |              4 |
+|  clk__0                           | U_TD/Umin1/ampm221_out       | Uclkgen/clk_2k_reg_0 |                2 |              4 |
+|  clk__0                           | U_TD/Umon0/CAC_mon           | Uclkgen/clk_2k_reg_0 |                2 |              4 |
+|  clk__0                           | U_TD/Umon0/q_reg[0]_0        | Uclkgen/clk_2k_reg_0 |                1 |              4 |
+|  clk__0                           | U_TD/Umon0/q_reg[0]_1        | Uclkgen/clk_2k_reg_0 |                1 |              4 |
+|  clk__0                           | U_TD/Umon0/q_reg[0]_3        | Uclkgen/clk_2k_reg_0 |                1 |              4 |
+|  clk__0                           | U_TD/Umon0/q_reg[0]_4        | Uclkgen/clk_2k_reg_0 |                2 |              4 |
+|  clk__0                           | U_TD/Usec0/q_reg[0]_0        | Uclkgen/clk_2k_reg_0 |                1 |              4 |
+|  clk__0                           |                              | Uclkgen/clk_2k_reg_0 |                2 |              5 |
+|  Uclkgen/debounce_window_reg[3]   |                              | Uclkgen/clk_2k_reg_0 |                3 |              9 |
+|  clk_IBUF_BUFG                    |                              | Uclkgen/clk_2k_reg_0 |               20 |             81 |
++-----------------------------------+------------------------------+----------------------+------------------+----------------+
+
+

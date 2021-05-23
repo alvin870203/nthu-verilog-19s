@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sun May 31 16:01:21 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="d8124a6d3d6b4912a656dc9821ad1ea6" type="ProjectID"/>
+<property name="ProjectIteration" value="9" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="13" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="6" type="JavaHandler"/>
+<property name="CloseProject" value="3" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="8" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="6" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="8" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="2" type="JavaHandler"/>
+<property name="ShowView" value="3" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="DoReMi.v, 124, 335" value="1" type="GuiResourceData"/>
+<property name="DoReMi.v, 281, 368" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="7" type="GuiResourceData"/>
+<property name="NEXT, Next " value="10" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, DoReMi.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, buzzer_control.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, clock_generator.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, electronic_organ.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, global.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, speaker_control.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, Verilog Header, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="6" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="6" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_NEW_PROJECT, New Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, DoReMi (DoReMi.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, global.v], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files, global.v], 2, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Verilog Header, global.v], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Verilog Header, global.v], 2, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Verilog Header], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, buzzer_control (buzzer_control.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, clock_generator (clock_generator.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, electronic_organ (electronic_organ.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, speaker (speaker.v" value="18" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, speaker_control (speaker_control.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true, false, false, false, true, false" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_FAMILY_CHOOSER, Artix-7, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PARTS, xc7a35tcpg236-1 ; 236 ; 50 ; 90 ; 41600 ; 2 ; 2 ; 106 ; 20800 ; 5 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95, 1, 50, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PART_PACKAGE_CHOOSER, cpg236, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_PART_SPEED_CHOOSER, -1, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, lab10_1_105033110_ver1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="6" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="6" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="13" type="GuiResourceData"/>
+<property name="buzzer_control.v, 216, 258" value="1" type="GuiResourceData"/>
+<property name="clock_generator.v, 137, 243" value="1" type="GuiResourceData"/>
+<property name="clock_generator.v, 148, 290" value="1" type="GuiResourceData"/>
+<property name="clock_generator.v, 179, 173" value="1" type="GuiResourceData"/>
+<property name="clock_generator.v, 393, 41" value="1" type="GuiResourceData"/>
+<property name="clock_generator.v, 507, 145" value="1" type="GuiResourceData"/>
+<property name="clock_generator.v, 62, 496" value="1" type="GuiResourceData"/>
+<property name="clock_generator.v, 759, 298" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 102, 406" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 105, 229" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 112, 43" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 120, 256" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 125, 279" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 136, 464" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 139, 537" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 152, 524" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 156, 118" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 157, 495" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 165, 392" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 185, 197" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 186, 204" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 188, 368" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 189, 276" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 204, 395" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 210, 354" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 220, 203" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 268, 475" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 288, 126" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 290, 294" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 305, 407" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 318, 371" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 32, 233" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 38, 491" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 408, 434" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 419, 457" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 48, 216" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 61, 458" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 63, 493" value="1" type="GuiResourceData"/>
+<property name="electronic_organ.v, 68, 136" value="1" type="GuiResourceData"/>
+<property name="global.v, 158, 266" value="1" type="GuiResourceData"/>
+<property name="global.v, 296, 242" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 160, 415" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 22, 300" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 24, 352" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 24, 356" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 29, 358" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 307, 502" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 31, 292" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 32, 514" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 34, 415" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 40, 288" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 46, 397" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 79, 377" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 88, 402" value="1" type="GuiResourceData"/>
+<property name="speaker_control.v, 154, 311" value="1" type="GuiResourceData"/>
+<property name="speaker_control.v, 247, 343" value="1" type="GuiResourceData"/>
+<property name="volumn_control.v, 215, 474" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="60" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="59" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

@@ -1,0 +1,491 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon May 25 22:42:28 2020
+# Process ID: 74900
+# Current directory: C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.runs/synth_1
+# Command line: vivado.exe -log top.vds -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.runs/synth_1/top.vds
+# Journal file: C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 74972 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 273.559 ; gain = 66.984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/top.v:2]
+INFO: [Synth 8-638] synthesizing module 'clock_generator' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/clock_generator.v:2]
+INFO: [Synth 8-256] done synthesizing module 'clock_generator' (1#1) [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/clock_generator.v:2]
+INFO: [Synth 8-638] synthesizing module 'debounce_circuit' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/debounce_circuit.v:2]
+INFO: [Synth 8-256] done synthesizing module 'debounce_circuit' (2#1) [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/debounce_circuit.v:2]
+INFO: [Synth 8-638] synthesizing module 'one_pulse' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/one_pulse.v:2]
+INFO: [Synth 8-256] done synthesizing module 'one_pulse' (3#1) [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/one_pulse.v:2]
+INFO: [Synth 8-638] synthesizing module 'BCD_up_counter' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/BCD_up_counter.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/BCD_up_counter.v:78]
+WARNING: [Synth 8-5788] Register q_reg in module BCD_up_counter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/BCD_up_counter.v:45]
+INFO: [Synth 8-256] done synthesizing module 'BCD_up_counter' (4#1) [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/BCD_up_counter.v:2]
+INFO: [Synth 8-638] synthesizing module 'fsm' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/fsm.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/fsm.v:17]
+INFO: [Synth 8-256] done synthesizing module 'fsm' (5#1) [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/fsm.v:2]
+INFO: [Synth 8-638] synthesizing module 'shifter' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:2]
+WARNING: [Synth 8-5788] Register q0_reg in module shifter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:44]
+WARNING: [Synth 8-5788] Register q1_reg in module shifter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:45]
+WARNING: [Synth 8-5788] Register q2_reg in module shifter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:46]
+WARNING: [Synth 8-5788] Register q3_reg in module shifter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:47]
+WARNING: [Synth 8-5788] Register q4_reg in module shifter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:48]
+WARNING: [Synth 8-5788] Register q5_reg in module shifter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:49]
+WARNING: [Synth 8-5788] Register q6_reg in module shifter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:50]
+WARNING: [Synth 8-5788] Register q7_reg in module shifter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:51]
+WARNING: [Synth 8-5788] Register q8_reg in module shifter is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:52]
+INFO: [Synth 8-256] done synthesizing module 'shifter' (6#1) [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/shifter.v:2]
+INFO: [Synth 8-638] synthesizing module 'scan_ctl' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/scan_ctl.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/scan_ctl.v:27]
+INFO: [Synth 8-256] done synthesizing module 'scan_ctl' (7#1) [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/scan_ctl.v:3]
+INFO: [Synth 8-638] synthesizing module 'display' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/display.v:2]
+INFO: [Synth 8-226] default block is never used [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/display.v:13]
+INFO: [Synth 8-256] done synthesizing module 'display' (8#1) [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/display.v:2]
+INFO: [Synth 8-256] done synthesizing module 'top' (9#1) [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/top.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 310.941 ; gain = 104.367
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 310.941 ; gain = 104.367
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/constrs_1/new/top.xdc]
+Finished Parsing XDC File [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/constrs_1/new/top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/constrs_1/new/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 596.641 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "clk_1_next" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "clk_100_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_2k_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_1k_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_100k_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_2500k_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "pb_debounced_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'fsm'
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'dig0_reg' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/BCD_up_counter.v:82]
+WARNING: [Synth 8-327] inferring latch for variable 'dig1_reg' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/BCD_up_counter.v:83]
+WARNING: [Synth 8-327] inferring latch for variable 'dig2_reg' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/BCD_up_counter.v:84]
+WARNING: [Synth 8-327] inferring latch for variable 'dig3_reg' [C:/Users/Alvin/Documents/LogicDesignLabMonday/Final_Exam/Final_Exam.srcs/sources_1/new/BCD_up_counter.v:85]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0000 |                             0000
+                 iSTATE0 |                             0001 |                             0001
+                 iSTATE1 |                             0010 |                             0010
+                 iSTATE2 |                             0011 |                             0011
+                 iSTATE3 |                             0100 |                             0100
+                 iSTATE4 |                             0101 |                             0101
+                 iSTATE5 |                             0110 |                             0110
+                 iSTATE6 |                             0111 |                             0111
+                 iSTATE7 |                             1000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               15 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 22    
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 26    
+	   9 Input      4 Bit        Muxes := 1     
+	  18 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+	  10 Input      1 Bit        Muxes := 10    
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+Module clock_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               15 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+Module debounce_circuit 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module one_pulse 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module BCD_up_counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 10    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
+	  10 Input      1 Bit        Muxes := 10    
+Module fsm 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   9 Input      4 Bit        Muxes := 1     
+	  18 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module shifter 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 9     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 18    
+Module scan_ctl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+Module display 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "U_CG/clk_1_next" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "U_CG/clk_100_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "U_CG/clk_2k_next" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design top has port segs[0] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 596.641 ; gain = 390.066
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'U_FSM/state_shift_reg[1]' (FDC) to 'U_FSM/state_shift_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U_FSM/state_shift_reg[3]' (FDC) to 'U_FSM/state_shift_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_FSM/state_shift_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (U_CG/count_20_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_CG/count_20_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_CG/count_20_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_CG/count_20_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_CG/count_20_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_FSM/state_shift_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_FSM/state_shift_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_FSM/state_shift_reg[1]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 596.641 ; gain = 390.066
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig0_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig0_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig0_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig0_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig1_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig1_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig1_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig1_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig2_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig2_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig2_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig2_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig3_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig3_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig3_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (U_BCDUC/dig3_reg[0]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |    16|
+|3     |LUT1   |    65|
+|4     |LUT2   |    89|
+|5     |LUT3   |    35|
+|6     |LUT4   |    59|
+|7     |LUT5   |    19|
+|8     |LUT6   |    69|
+|9     |MUXF7  |     8|
+|10    |MUXF8  |     4|
+|11    |FDCE   |   122|
+|12    |FDPE   |    68|
+|13    |FDRE   |     4|
+|14    |LDC    |    32|
+|15    |IBUF   |     5|
+|16    |OBUF   |    28|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------+-------------------+------+
+|      |Instance  |Module             |Cells |
++------+----------+-------------------+------+
+|1     |top       |                   |   626|
+|2     |  U_BCDUC |BCD_up_counter     |   144|
+|3     |  U_CG    |clock_generator    |   222|
+|4     |  U_DC    |debounce_circuit   |     7|
+|5     |  U_DC_m  |debounce_circuit_0 |     7|
+|6     |  U_FSM   |fsm                |    31|
+|7     |  U_OP    |one_pulse          |     2|
+|8     |  U_OP_m  |one_pulse_1        |     2|
+|9     |  U_S     |shifter            |   167|
+|10    |  U_SC    |scan_ctl           |     8|
++------+----------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 29 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 596.641 ; gain = 104.367
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 596.641 ; gain = 390.066
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  LDC => LDCE: 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 596.641 ; gain = 390.066
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 596.641 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 25 22:43:00 2020...

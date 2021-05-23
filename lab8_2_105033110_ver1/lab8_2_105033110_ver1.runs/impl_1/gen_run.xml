@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1589186004">
+  <File Type="OPT-DCP" Name="speaker_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="speaker_route_status.pb"/>
+  <File Type="PA-TCL" Name="speaker.tcl"/>
+  <File Type="RDI-RDI" Name="speaker.vdi"/>
+  <File Type="PWROPT-DRC" Name="speaker_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="speaker_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="speaker_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="speaker_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="speaker_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="speaker.hwdef"/>
+  <File Type="OPT-TIMING" Name="speaker_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="speaker_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="speaker_placed.dcp"/>
+  <File Type="PLACE-IO" Name="speaker_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="speaker_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="speaker_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="speaker_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="speaker_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="speaker_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="speaker_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="speaker_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="speaker_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="speaker_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="speaker_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="speaker_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="speaker_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="speaker_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="speaker_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="speaker_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="speaker_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="speaker_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="speaker.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="speaker_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="speaker_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="speaker_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="speaker_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="speaker_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="speaker_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="speaker_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="speaker_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="speaker_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="speaker_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="speaker_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="speaker_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="speaker_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="speaker_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="speaker_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="speaker.bin"/>
+  <File Type="BITSTR-MSK" Name="speaker.msk"/>
+  <File Type="BITSTR-RBT" Name="speaker.rbt"/>
+  <File Type="BITSTR-NKY" Name="speaker.nky"/>
+  <File Type="BITSTR-BMM" Name="speaker_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="speaker.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="speaker.sysdef"/>
+  <File Type="BG-BGN" Name="speaker.bgn"/>
+  <File Type="BG-DRC" Name="speaker.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/global.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/volumn_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/speaker_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/scan_ctl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/one_pulse.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debounce_circuit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/buzzer_control.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DoReMi.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/speaker.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="speaker"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/speaker.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

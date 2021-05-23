@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Apr 10 00:20:44 2020
+# Process ID: 14808
+# Current directory: C:/Users/Alvin/Documents/LogicDesignLabMonday/stopwatch/stopwatch.runs/synth_1
+# Command line: vivado.exe -log stopwatch.vds -mode batch -messageDb vivado.pb -notrace -source stopwatch.tcl
+# Log file: C:/Users/Alvin/Documents/LogicDesignLabMonday/stopwatch/stopwatch.runs/synth_1/stopwatch.vds
+# Journal file: C:/Users/Alvin/Documents/LogicDesignLabMonday/stopwatch/stopwatch.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source stopwatch.tcl -notrace

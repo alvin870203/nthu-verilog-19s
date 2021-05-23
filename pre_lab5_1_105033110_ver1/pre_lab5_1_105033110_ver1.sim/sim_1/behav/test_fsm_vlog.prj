@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../pre_lab5_1_105033110_ver1.srcs/sources_1/new/fsm.v" --include "../../../pre_lab5_1_105033110_ver1.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../pre_lab5_1_105033110_ver1.srcs/sim_1/new/test_fsm.v" --include "../../../pre_lab5_1_105033110_ver1.srcs/sources_1/new"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

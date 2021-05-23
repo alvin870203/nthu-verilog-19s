@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_lab1_3_105033110_ver1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_lab1_3_105033110_ver1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="147600001fs"></ZoomEndTime>
+      <Cursor1Time time="720000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/test_lab1_3_105033110_ver1/MAX" type="array">
+      <obj_property name="ElementShortName">MAX[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_lab1_3_105033110_ver1/A" type="array">
+      <obj_property name="ElementShortName">A[2:0]</obj_property>
+      <obj_property name="ObjectShortName">A[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_lab1_3_105033110_ver1/B" type="array">
+      <obj_property name="ElementShortName">B[2:0]</obj_property>
+      <obj_property name="ObjectShortName">B[2:0]</obj_property>
+   </wvobject>
+</wave_config>

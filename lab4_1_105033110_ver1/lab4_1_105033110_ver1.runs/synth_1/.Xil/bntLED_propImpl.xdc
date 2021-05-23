@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/Alvin/Documents/LogicDesignLabMonday/lab4_1_105033110_ver1/lab4_1_105033110_ver1.srcs/constrs_1/new/bntLED.xdc rfile:../../../lab4_1_105033110_ver1.srcs/constrs_1/new/bntLED.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W5 [get_ports clk]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V17 [get_ports rst_n]

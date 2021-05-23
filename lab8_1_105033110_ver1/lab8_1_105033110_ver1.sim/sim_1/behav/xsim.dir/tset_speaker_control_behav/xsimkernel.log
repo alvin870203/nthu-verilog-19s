@@ -1,0 +1,7 @@
+Running: xsim.dir/tset_speaker_control_behav/xsimk.exe -simmode gui -wdb tset_speaker_control_behav.wdb -simrunnum 0 -socket 51211
+Design successfully loaded
+Design Loading Memory Usage: 9180 KB (Peak: 9180 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 9940 KB (Peak: 9940 KB)
+Simulation CPU Usage: 108 ms

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Mar 20 03:42:36 2020
+# Process ID: 21152
+# Current directory: C:/Users/Alvin/Documents/LogicDesignLabMonday/lab2_4_105033110_ver1/lab2_4_105033110_ver1.runs/synth_1
+# Command line: vivado.exe -log mag_cmp.vds -mode batch -messageDb vivado.pb -notrace -source mag_cmp.tcl
+# Log file: C:/Users/Alvin/Documents/LogicDesignLabMonday/lab2_4_105033110_ver1/lab2_4_105033110_ver1.runs/synth_1/mag_cmp.vds
+# Journal file: C:/Users/Alvin/Documents/LogicDesignLabMonday/lab2_4_105033110_ver1/lab2_4_105033110_ver1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mag_cmp.tcl -notrace

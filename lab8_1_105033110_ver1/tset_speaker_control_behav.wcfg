@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tset_speaker_control_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tset_speaker_control" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1932175000fs"></ZoomStartTime>
+      <ZoomEndTime time="3624175001fs"></ZoomEndTime>
+      <Cursor1Time time="2049000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tset_speaker_control/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tset_speaker_control/lrck" type="logic">
+      <obj_property name="ElementShortName">lrck</obj_property>
+      <obj_property name="ObjectShortName">lrck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tset_speaker_control/audio_sdin" type="logic">
+      <obj_property name="ElementShortName">audio_sdin</obj_property>
+      <obj_property name="ObjectShortName">audio_sdin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tset_speaker_control/audio_in_left" type="array">
+      <obj_property name="ElementShortName">audio_in_left[15:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_in_left[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tset_speaker_control/audio_in_right" type="array">
+      <obj_property name="ElementShortName">audio_in_right[15:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_in_right[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tset_speaker_control/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tset_speaker_control/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+</wave_config>

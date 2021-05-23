@@ -1,0 +1,224 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun May 24 17:02:42 2020
+# Process ID: 30876
+# Current directory: C:/Users/Alvin/Documents/LogicDesignLabMonday/lab9_3_105033110_ver1/lab9_3_105033110_ver1.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/Alvin/Documents/LogicDesignLabMonday/lab9_3_105033110_ver1/lab9_3_105033110_ver1.runs/impl_1/top.vdi
+# Journal file: C:/Users/Alvin/Documents/LogicDesignLabMonday/lab9_3_105033110_ver1/lab9_3_105033110_ver1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Alvin/Documents/LogicDesignLabMonday/lab9_3_105033110_ver1/lab9_3_105033110_ver1.srcs/constrs_1/new/top.xdc]
+Finished Parsing XDC File [C:/Users/Alvin/Documents/LogicDesignLabMonday/lab9_3_105033110_ver1/lab9_3_105033110_ver1.srcs/constrs_1/new/top.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 439.301 ; gain = 232.414
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 443.969 ; gain = 4.668
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: cbc6bb71
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: cbc6bb71
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 916.297 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant Propagation | Checksum: cbc6bb71
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 916.297 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 19 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 11756d3fa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 916.297 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 916.297 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 11756d3fa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 916.297 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 11756d3fa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 916.297 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+21 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 916.297 ; gain = 476.996
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 916.297 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Alvin/Documents/LogicDesignLabMonday/lab9_3_105033110_ver1/lab9_3_105033110_ver1.runs/impl_1/top_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 916.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 916.297 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop
+
+Phase 1.1.1.1 Pre-Place Cells
+Phase 1.1.1.1 Pre-Place Cells | Checksum: 4c0a15de
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 916.297 ; gain = 0.000
+
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr | Checksum: 4c0a15de
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 916.297 ; gain = 0.000
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus state are not locked:  'state[2]' 
+WARNING: [Place 30-879] Found overlapping PBlocks. The use of overlapping PBlocks is not recommended as it may lead to legalization errors or unplaced instances.
+WARNING: [Place 30-12] An IO Bus state with more than one IO standard is found. Components associated with this bus are: 
+	state[2] of IOStandard LVCMOS18
+	state[1] of IOStandard LVCMOS33
+	state[0] of IOStandard LVCMOS33
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (1) is greater than number of available sites (0).
+The following Groups of I/O terminals have not sufficient capacity: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 1 sites.
+	Term: state[2]
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (1) is greater than number of available sites (0).
+The following Groups of I/O terminals have not sufficient capacity: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 0 sites available on device, but needs 1 sites.
+	Term: state[2]
+
+
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 14 |    50 |    10 | LVCMOS33(10)                                                           |                                          |        |  +3.30 |    YES |     |
+| 16 |    12 |     2 | LVCMOS33(2)                                                            |                                          |        |  +3.30 |    YES |     |
+| 34 |    24 |    13 | LVCMOS33(13)                                                           |                                          |        |  +3.30 |    YES |     |
+| 35 |    20 |     3 | LVCMOS33(3)                                                            |                                          |        |  +3.30 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   106 |    28 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 14     | last_change[0]       | LVCMOS33        | IOB_X0Y3             | U16                  |                      |
+|        | last_change[1]       | LVCMOS33        | IOB_X0Y43            | E19                  |                      |
+|        | last_change[2]       | LVCMOS33        | IOB_X0Y20            | U19                  |                      |
+|        | last_change[3]       | LVCMOS33        | IOB_X0Y19            | V19                  |                      |
+|        | last_change[4]       | LVCMOS33        | IOB_X0Y18            | W18                  |                      |
+|        | last_change[5]       | LVCMOS33        | IOB_X0Y4             | U15                  |                      |
+|        | last_change[6]       | LVCMOS33        | IOB_X0Y0             | U14                  |                      |
+|        | last_change[7]       | LVCMOS33        | IOB_X0Y1             | V14                  |                      |
+|        | last_change[8]       | LVCMOS33        | IOB_X0Y2             | V13                  |                      |
+|        | rst_n                | LVCMOS33        | IOB_X0Y11            | V17                  | *                    |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 16     | PS2_CLK              | LVCMOS33        | IOB_X0Y122           | C17                  |                      |
+|        | PS2_DATA             | LVCMOS33        | IOB_X0Y121           | B17                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | clk                  | LVCMOS33        | IOB_X1Y26            | W5                   |                      |
+|        | segs[0]              | LVCMOS33        | IOB_X1Y11            | V7                   | *                    |
+|        | segs[1]              | LVCMOS33        | IOB_X1Y12            | U7                   |                      |
+|        | segs[2]              | LVCMOS33        | IOB_X1Y17            | V5                   |                      |
+|        | segs[3]              | LVCMOS33        | IOB_X1Y18            | U5                   |                      |
+|        | segs[4]              | LVCMOS33        | IOB_X1Y21            | V8                   |                      |
+|        | segs[5]              | LVCMOS33        | IOB_X1Y22            | U8                   |                      |
+|        | segs[6]              | LVCMOS33        | IOB_X1Y23            | W6                   |                      |
+|        | segs[7]              | LVCMOS33        | IOB_X1Y24            | W7                   |                      |
+|        | ssd_ctl[0]           | LVCMOS33        | IOB_X1Y25            | W4                   |                      |
+|        | ssd_ctl[1]           | LVCMOS33        | IOB_X1Y27            | V4                   |                      |
+|        | ssd_ctl[2]           | LVCMOS33        | IOB_X1Y28            | U4                   |                      |
+|        | ssd_ctl[3]           | LVCMOS33        | IOB_X1Y31            | U2                   |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 35     | in_trig              | LVCMOS33        | IOB_X1Y87            | L1                   | *                    |
+|        | state[0]             | LVCMOS33        | IOB_X1Y76            | N3                   |                      |
+|        | state[1]             | LVCMOS33        | IOB_X1Y61            | P1                   | *                    |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.1.3 IO and Clk Clean Up
+
+Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr
+Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr | Checksum: 4c0a15de
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.694 . Memory (MB): peak = 931.285 ; gain = 14.988
+Phase 1.1.1.3 IO and Clk Clean Up | Checksum: 4c0a15de
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.700 . Memory (MB): peak = 931.285 ; gain = 14.988
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop | Checksum: 4c0a15de
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.755 . Memory (MB): peak = 931.285 ; gain = 14.988
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 91dc21c6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.755 . Memory (MB): peak = 931.285 ; gain = 14.988
+Phase 1 Placer Initialization | Checksum: 91dc21c6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.797 . Memory (MB): peak = 931.285 ; gain = 14.988
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 91dc21c6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.802 . Memory (MB): peak = 931.285 ; gain = 14.988
+INFO: [Common 17-83] Releasing license: Implementation
+34 Infos, 3 Warnings, 0 Critical Warnings and 5 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Sun May 24 17:03:04 2020...

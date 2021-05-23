@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_lab1_1_105033110_ver1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_lab1_1_105033110_ver1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="140000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/test_lab1_1_105033110_ver1/COUT" type="logic">
+      <obj_property name="ElementShortName">COUT</obj_property>
+      <obj_property name="ObjectShortName">COUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_lab1_1_105033110_ver1/S" type="logic">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_lab1_1_105033110_ver1/X" type="logic">
+      <obj_property name="ElementShortName">X</obj_property>
+      <obj_property name="ObjectShortName">X</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_lab1_1_105033110_ver1/Y" type="logic">
+      <obj_property name="ElementShortName">Y</obj_property>
+      <obj_property name="ObjectShortName">Y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_lab1_1_105033110_ver1/CIN" type="logic">
+      <obj_property name="ElementShortName">CIN</obj_property>
+      <obj_property name="ObjectShortName">CIN</obj_property>
+   </wvobject>
+</wave_config>

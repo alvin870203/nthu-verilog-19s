@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sat Jun 27 03:00:24 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="76264cc2edf9413eaac4abdcb2efe258" type="ProjectID"/>
+<property name="ProjectIteration" value="12" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="16" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="8" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="11" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="8" type="JavaHandler"/>
+<property name="RunBitgen" value="11" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="3" type="JavaHandler"/>
+<property name="ShowView" value="5" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="Motor.v, 772, 135" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, top (top.v" value="16" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="6" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, Open target" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="top.v, 109, 529" value="1" type="GuiResourceData"/>
+<property name="top.v, 111, 528" value="1" type="GuiResourceData"/>
+<property name="top.v, 134, 375" value="1" type="GuiResourceData"/>
+<property name="top.v, 162, 384" value="1" type="GuiResourceData"/>
+<property name="top.v, 199, 279" value="1" type="GuiResourceData"/>
+<property name="top.v, 200, 134" value="1" type="GuiResourceData"/>
+<property name="top.v, 214, 279" value="1" type="GuiResourceData"/>
+<property name="top.v, 565, 266" value="1" type="GuiResourceData"/>
+<property name="top.v, 65, 428" value="1" type="GuiResourceData"/>
+<property name="top.v, 67, 405" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="64" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="62" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

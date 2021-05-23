@@ -1,0 +1,163 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon May 25 22:43:32 2020
+| Host         : DESKTOP-DC9NKE6 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   110 |
+| Unused register locations in slices containing registers |   734 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            2 |
+| No           | No                    | Yes                    |             150 |           90 |
+| No           | Yes                   | No                     |              32 |           32 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              40 |           14 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------+--------------------+-----------------------+------------------+----------------+
+|          Clock Signal          |    Enable Signal   |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++--------------------------------+--------------------+-----------------------+------------------+----------------+
+|  U_BCDUC/q8_reg[3]_P           |                    | U_BCDUC/q8_reg[3]_C   |                1 |              1 |
+|  U_BCDUC/q1_reg[0]_P           |                    | U_BCDUC/q1_reg[0]_C   |                1 |              1 |
+|  U_BCDUC/q1_reg[1]_P           |                    | U_BCDUC/q1_reg[1]_C   |                1 |              1 |
+|  U_BCDUC/q1_reg[2]_P           |                    | U_BCDUC/q1_reg[2]_C   |                1 |              1 |
+|  U_BCDUC/q1_reg[3]_P           |                    | U_BCDUC/q1_reg[3]_C   |                1 |              1 |
+|  U_BCDUC/q2_reg[0]_P           |                    | U_BCDUC/q2_reg[0]_C   |                1 |              1 |
+|  U_BCDUC/q2_reg[1]_P           |                    | U_BCDUC/q2_reg[1]_C   |                1 |              1 |
+|  U_BCDUC/q2_reg[2]_P           |                    | U_BCDUC/q2_reg[2]_C   |                1 |              1 |
+|  U_BCDUC/q2_reg[3]_P           |                    | U_BCDUC/q2_reg[3]_C_0 |                1 |              1 |
+|  U_BCDUC/q3_reg[0]_P           |                    | U_BCDUC/q3_reg[0]_C   |                1 |              1 |
+|  U_BCDUC/q3_reg[1]_P           |                    | U_BCDUC/q3_reg[1]_C   |                1 |              1 |
+|  U_BCDUC/q3_reg[2]_P           |                    | U_BCDUC/q3_reg[2]_C   |                1 |              1 |
+|  U_BCDUC/q3_reg[3]_P           |                    | U_BCDUC/q3_reg[3]_C_0 |                1 |              1 |
+|  U_BCDUC/q4_reg[0]_P           |                    | U_BCDUC/q4_reg[0]_C   |                1 |              1 |
+|  U_BCDUC/q4_reg[1]_P           |                    | U_BCDUC/q4_reg[1]_C   |                1 |              1 |
+|  U_BCDUC/q4_reg[2]_P           |                    | U_BCDUC/q4_reg[2]_C   |                1 |              1 |
+|  U_BCDUC/q4_reg[3]_P           |                    | U_BCDUC/q4_reg[3]_C_0 |                1 |              1 |
+|  U_BCDUC/q5_reg[0]_P           |                    | U_BCDUC/q5_reg[0]_C   |                1 |              1 |
+|  U_BCDUC/q5_reg[1]_P           |                    | U_BCDUC/q5_reg[1]_C   |                1 |              1 |
+|  U_BCDUC/q5_reg[2]_P           |                    | U_BCDUC/q5_reg[2]_C   |                1 |              1 |
+|  U_BCDUC/q5_reg[3]_P           |                    | U_BCDUC/q5_reg[3]_C_0 |                1 |              1 |
+|  U_BCDUC/q6_reg[0]_P           |                    | U_BCDUC/q6_reg[0]_C   |                1 |              1 |
+|  U_BCDUC/q6_reg[1]_P           |                    | U_BCDUC/q6_reg[1]_C   |                1 |              1 |
+|  U_BCDUC/q6_reg[2]_P           |                    | U_BCDUC/q6_reg[2]_C   |                1 |              1 |
+|  U_BCDUC/q6_reg[3]_P           |                    | U_BCDUC/q6_reg[3]_C_0 |                1 |              1 |
+|  U_BCDUC/q7_reg[0]_P           |                    | U_BCDUC/q7_reg[0]_C   |                1 |              1 |
+|  U_BCDUC/q7_reg[1]_P           |                    | U_BCDUC/q7_reg[1]_C   |                1 |              1 |
+|  U_BCDUC/q7_reg[2]_P           |                    | U_BCDUC/q7_reg[2]_C   |                1 |              1 |
+|  U_BCDUC/q7_reg[3]_P           |                    | U_BCDUC/q7_reg[3]_C   |                1 |              1 |
+|  U_BCDUC/q8_reg[0]_P           |                    | U_BCDUC/q8_reg[0]_C   |                1 |              1 |
+|  U_BCDUC/q8_reg[1]_P           |                    | U_BCDUC/q8_reg[1]_C   |                1 |              1 |
+|  U_BCDUC/q8_reg[2]_P           |                    | U_BCDUC/q8_reg[2]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q7_reg[1]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q7_reg[1]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q7_reg[2]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q7_reg[2]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q7_reg[3]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q7_reg[3]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q8_reg[0]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q8_reg[0]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q8_reg[1]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q8_reg[1]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q2_reg[0]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q8_reg[2]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q8_reg[2]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q8_reg[3]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q8_reg[3]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q1_reg[0]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q1_reg[0]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q1_reg[1]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q1_reg[1]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q1_reg[2]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q1_reg[2]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q1_reg[3]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q1_reg[3]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q3_reg[2]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q2_reg[0]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q2_reg[1]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q2_reg[1]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q2_reg[2]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q2_reg[2]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q2_reg[3]_C_0 |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q2_reg[3]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q3_reg[0]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q3_reg[0]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q3_reg[1]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q3_reg[1]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q3_reg[2]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q3_reg[3]_C_0 |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q3_reg[3]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q4_reg[0]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q4_reg[0]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q4_reg[1]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q4_reg[1]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q4_reg[2]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q4_reg[2]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q4_reg[3]_C_0 |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q4_reg[3]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q5_reg[0]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q5_reg[0]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q5_reg[1]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q5_reg[1]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q5_reg[2]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q5_reg[2]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q5_reg[3]_C_0 |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q5_reg[3]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q6_reg[0]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q6_reg[0]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q6_reg[1]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q6_reg[1]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q6_reg[2]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q6_reg[2]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q6_reg[3]_C_0 |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q6_reg[3]_P   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q7_reg[0]_C   |                1 |              1 |
+|  q0_reg[3]_i_2_n_0             |                    | U_BCDUC/q7_reg[0]_P   |                1 |              1 |
+|  U_CG/ssd_enabled_index_reg[0] |                    | U_CG/clk_2k_reg_0     |                1 |              2 |
+|  clk_100_BUFG                  | U_FSM/q8_reg[3]    | U_CG/clk_2k_reg_0     |                3 |              4 |
+|  clk_100_BUFG                  | U_FSM/E[0]         | U_CG/clk_2k_reg_0     |                2 |              4 |
+|  clk_100_BUFG                  | U_FSM/q1_reg[3][0] | U_CG/clk_2k_reg_0     |                1 |              4 |
+|  clk_100_BUFG                  | U_FSM/q2_reg[3][0] | U_CG/clk_2k_reg_0     |                1 |              4 |
+|  clk_100_BUFG                  | U_FSM/q3_reg[0][0] | U_CG/clk_2k_reg_0     |                1 |              4 |
+|  clk_100_BUFG                  | U_FSM/q4_reg[3][0] | U_CG/clk_2k_reg_0     |                1 |              4 |
+|  clk_100_BUFG                  | U_FSM/q5_reg[3][0] | U_CG/clk_2k_reg_0     |                1 |              4 |
+|  clk_100_BUFG                  | U_FSM/q6_reg[3][0] | U_CG/clk_2k_reg_0     |                2 |              4 |
+|  clk_100_BUFG                  | U_OP/switch_op     | U_CG/clk_2k_reg_0     |                1 |              4 |
+|  q0_reg[3]_i_2_n_0             |                    |                       |                2 |              4 |
+|  clk_100_BUFG                  | U_FSM/q7_reg[0][0] | U_CG/clk_2k_reg_0     |                1 |              4 |
+|  clk_100_BUFG                  |                    | U_CG/clk_2k_reg_0     |                5 |             19 |
+|  clk_IBUF_BUFG                 |                    | U_CG/clk_2k_reg_0     |               20 |             65 |
++--------------------------------+--------------------+-----------------------+------------------+----------------+
+
+
